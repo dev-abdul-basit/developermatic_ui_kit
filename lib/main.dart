@@ -1,3 +1,4 @@
+import 'package:developermatic_kit/config/strings.dart';
 import 'package:flutter/material.dart';
 import 'package:developermatic_kit/config/size.dart';
 import 'package:developermatic_kit/screens/splash/splash_screen.dart';
@@ -28,7 +29,7 @@ class _MyAppState extends State<MyApp> {
         FocusManager.instance.primaryFocus?.unfocus();
       },
       child: MaterialApp(
-        title: 'Developermatic UI Kit',
+        title: AppStrings.appTitle,
         debugShowCheckedModeBanner: false,
         theme: theme(),
         initialRoute: SplashScreen.routeName,

@@ -1,4 +1,5 @@
 import 'package:developermatic_kit/config/colors.dart';
+import 'package:developermatic_kit/config/strings.dart';
 import 'package:developermatic_kit/config/styles.dart';
 import 'package:flutter/material.dart';
 
@@ -25,14 +26,9 @@ class _BodyState extends State<Body> {
                 SizedBox(height: MediaQuery.of(context).size.height / 36),
                 searchBar(),
                 SizedBox(height: MediaQuery.of(context).size.height / 24),
-           
               ],
             ),
           ),
-          
-          
-          
-         
         ],
       ),
     );
@@ -45,11 +41,11 @@ class _BodyState extends State<Body> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            "Ciao,",
+            AppStrings.appTitle,
             style: h1Bold26Black,
           ),
           Text(
-            "Chiara Bianchi",
+            AppStrings.more,
             style: h1Bold26Black,
           )
         ],
@@ -72,7 +68,7 @@ class _BodyState extends State<Body> {
             fontWeight: FontWeight.normal,
             color: AppColors.black.withOpacity(0.5),
           ),
-          hintText: "Cerca",
+          hintText: AppStrings.search,
           fillColor: AppColors.textFieldColor.withOpacity(0.5),
           prefixIcon: Icon(Icons.search,
               color: AppColors.black.withOpacity(0.5), size: 24),
@@ -80,6 +76,4 @@ class _BodyState extends State<Body> {
       ),
     );
   }
-
-  
 }
