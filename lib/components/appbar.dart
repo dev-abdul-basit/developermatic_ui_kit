@@ -45,7 +45,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
       ),
       title: Text(
         title!,
-        style: h1Bold26Black.copyWith(fontWeight: FontWeight.normal),
+        style: h1Bold24Black.copyWith(fontWeight: FontWeight.normal),
       ),
       automaticallyImplyLeading: false,
     );

@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:developermatic_kit/config/colors.dart';
 
 //Headings Black
-const h1Bold26Black = TextStyle(
+const h1Bold24Black = TextStyle(
   color: AppColors.black,
-  fontSize: 26,
+  fontSize: 24,
   fontFamily: 'Poppins',
   fontWeight: FontWeight.bold,
 );

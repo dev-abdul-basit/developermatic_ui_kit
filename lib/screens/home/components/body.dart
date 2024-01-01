@@ -1,4 +1,5 @@
 import 'package:developermatic_kit/config/colors.dart';
+import 'package:developermatic_kit/config/size.dart';
 import 'package:developermatic_kit/config/strings.dart';
 import 'package:developermatic_kit/config/styles.dart';
 import 'package:flutter/material.dart';
@@ -23,9 +24,9 @@ class _BodyState extends State<Body> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 topHeading(),
-                SizedBox(height: MediaQuery.of(context).size.height / 36),
+                SizedBox(height: getProportionateScreenHeight(24)),
                 searchBar(),
-                SizedBox(height: MediaQuery.of(context).size.height / 24),
+                SizedBox(height: getProportionateScreenHeight(24)),
               ],
             ),
           ),
@@ -42,11 +43,11 @@ class _BodyState extends State<Body> {
         children: [
           Text(
             AppStrings.appTitle,
-            style: h1Bold26Black,
+            style: h1Bold24Black,
           ),
           Text(
             AppStrings.more,
-            style: h1Bold26Black,
+            style: h1Bold24Black,
           )
         ],
       ),

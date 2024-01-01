@@ -7,6 +7,7 @@ class AppStrings {
   static const String clickMe = 'Click This Button';
   static const String search = 'Search';
   static const String uiKit = 'UI Kit';
+  
 
   // Bottom Menu
   static const String home = 'Home';
