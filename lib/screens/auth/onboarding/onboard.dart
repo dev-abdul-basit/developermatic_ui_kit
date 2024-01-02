@@ -1,8 +1,10 @@
 import 'package:developermatic_kit/bottom_menu.dart';
 import 'package:developermatic_kit/components/primary_button.dart';
 import 'package:developermatic_kit/config/colors.dart';
+import 'package:developermatic_kit/config/size.dart';
 import 'package:developermatic_kit/config/strings.dart';
 import 'package:developermatic_kit/config/styles.dart';
+
 import 'package:flutter/material.dart';
 
 class OnBoardScreen extends StatefulWidget {
@@ -19,16 +21,32 @@ class _OnBoardScreenState extends State<OnBoardScreen> {
     return Scaffold(
       body: Padding(
         padding: const EdgeInsets.all(24.0),
-        child: Center(
-            child: PrimaryButton(
-          text: AppStrings.clickMe,
-          textStyle: btnTextStyle,
-          press: () {
-            gotoTabs(context);
-          },
-          gradiendColor1: AppColors.primaryColor,
-          gradientColor2: AppColors.primaryColor,
-        )),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(AppStrings.onboardHeadingOne, style: h1Bold24Black),
+            SizedBox(height: getProportionateScreenHeight(24)),
+            Text(
+              AppStrings.onboardHeadingTwo,
+              style: h2Bold18Black.copyWith(
+                color: AppColors.btnYellow,
+                fontWeight: FontWeight.normal,
+              ),
+            ),
+            Center(
+              child: PrimaryButton(
+                text: AppStrings.clickMe,
+                textStyle: btnTextStyle,
+                press: () {
+                  gotoTabs(context);
+                },
+                gradiendColor1: AppColors.primaryColor,
+                gradientColor2: AppColors.dashboardBlueColor,
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }

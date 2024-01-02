@@ -7,11 +7,15 @@ class AppStrings {
   static const String clickMe = 'Click This Button';
   static const String search = 'Search';
   static const String uiKit = 'UI Kit';
-  
 
   // Bottom Menu
   static const String home = 'Home';
   static const String explore = 'Explore';
   static const String more = 'Moress';
   static const String profile = 'Profile';
+
+  //OnBoard
+  static const String onboardHeadingOne = 'All your favorites';
+  static const String onboardHeadingTwo = 'Order from choosen chef';
+  static const String onboardHeadingThree = 'Free delivery offers';
 }

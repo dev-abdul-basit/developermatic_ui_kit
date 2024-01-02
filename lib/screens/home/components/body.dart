@@ -38,7 +38,7 @@ class _BodyState extends State<Body> {
   Widget topHeading() {
     return Container(
       color: Colors.transparent,
-      child: const Column(
+      child:  Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
@@ -47,7 +47,7 @@ class _BodyState extends State<Body> {
           ),
           Text(
             AppStrings.more,
-            style: h1Bold24Black,
+            style: h1Bold24Black.copyWith(color: AppColors.greenText),
           )
         ],
       ),

@@ -1,4 +1,3 @@
-
 import 'package:developermatic_kit/components/social_btn.dart';
 import 'package:developermatic_kit/config/assets.dart';
 import 'package:developermatic_kit/config/constants.dart';
@@ -26,7 +25,7 @@ class _SignInFormState extends State<SignInForm> {
 //Email
   Widget buildEmailFormField() {
     return TextFormField(
-      style: text1TextStyle13,
+      style: text1TextStyle16,
       cursorColor: AppColors.primaryColor,
       autofocus: true,
       keyboardType: TextInputType.emailAddress,
@@ -55,7 +54,7 @@ class _SignInFormState extends State<SignInForm> {
 //Password
   Widget buildPasswordFormField() {
     return TextFormField(
-      style: text1TextStyle13,
+      style: text1TextStyle16,
       cursorColor: AppColors.primaryColor,
       autofocus: true,
       keyboardType: TextInputType.text,

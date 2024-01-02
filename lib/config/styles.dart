@@ -28,11 +28,11 @@ const h4Bold13Black = TextStyle(
   fontFamily: 'Poppins',
 );
 ////
-const text1TextStyle13 = TextStyle(
+const text1TextStyle16 = TextStyle(
   color: AppColors.black,
   fontFamily: 'Poppins',
-  fontWeight: FontWeight.w300,
-  fontSize: 13.0,
+  fontWeight: FontWeight.normal,
+  fontSize: 16.0,
 );
 
 const text2TextStyle10 = TextStyle(
@@ -54,7 +54,7 @@ InputDecoration buildInputDecoration(String hintText) {
   return InputDecoration(
     errorStyle: const TextStyle(height: 0),
     hintText: hintText,
-    hintStyle: text1TextStyle13,
+    hintStyle: text1TextStyle16,
     contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 24),
     enabledBorder: OutlineInputBorder(
       borderRadius: BorderRadius.circular(8),

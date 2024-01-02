@@ -23,7 +23,7 @@ class _SignUpFormState extends State<SignUpForm> {
 //Name
   Widget buildNameFormField() {
     return TextFormField(
-      style: text1TextStyle13,
+      style: text1TextStyle16,
       cursorColor: AppColors.primaryColor,
       autofocus: true,
       keyboardType: TextInputType.emailAddress,
@@ -50,7 +50,7 @@ class _SignUpFormState extends State<SignUpForm> {
 //Email
   Widget buildEmailFormField() {
     return TextFormField(
-      style: text1TextStyle13,
+      style: text1TextStyle16,
       cursorColor: AppColors.primaryColor,
       autofocus: true,
       keyboardType: TextInputType.emailAddress,
@@ -79,7 +79,7 @@ class _SignUpFormState extends State<SignUpForm> {
 //Password
   Widget buildPasswordFormField() {
     return TextFormField(
-      style: text1TextStyle13,
+      style: text1TextStyle16,
       cursorColor: AppColors.primaryColor,
       autofocus: true,
       keyboardType: TextInputType.emailAddress,
@@ -108,7 +108,7 @@ class _SignUpFormState extends State<SignUpForm> {
 //Telefone
   Widget buildTelefonoFormField() {
     return TextFormField(
-      style: text1TextStyle13,
+      style: text1TextStyle16,
       cursorColor: AppColors.primaryColor,
       autofocus: true,
       keyboardType: TextInputType.number,

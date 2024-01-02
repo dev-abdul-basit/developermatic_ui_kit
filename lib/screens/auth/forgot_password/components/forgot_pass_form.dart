@@ -82,7 +82,7 @@ class _ForgotPasswordFormState extends State<ForgotPasswordForm> {
 //Email
   Widget buildEmailFormField() {
     return TextFormField(
-      style: text1TextStyle13,
+      style: text1TextStyle16,
       cursorColor: AppColors.primaryColor,
       autofocus: true,
       keyboardType: TextInputType.emailAddress,
@@ -111,7 +111,7 @@ class _ForgotPasswordFormState extends State<ForgotPasswordForm> {
 //Telefone
   Widget buildTelefonoFormField() {
     return TextFormField(
-      style: text1TextStyle13,
+      style: text1TextStyle16,
       cursorColor: AppColors.primaryColor,
       autofocus: true,
       keyboardType: TextInputType.number,

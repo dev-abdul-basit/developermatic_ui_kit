@@ -133,7 +133,7 @@ Widget drawerField(route, text, icon) {
             padding: const EdgeInsets.only(left: 10),
             child: Text(
               text,
-              style: text1TextStyle13.copyWith(color: AppColors.white),
+              style: text1TextStyle16.copyWith(color: AppColors.white),
             ),
           ),
         ],

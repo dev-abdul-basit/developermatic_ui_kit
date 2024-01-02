@@ -28,4 +28,5 @@ class AppColors {
   static const Color formColor = Color(0xFFFAFAFB);
   static const Color redAlert = Color(0xFFFF4D77);
   static const Color greenText = Color(0xFF19AE7C);
+  static const Color btnYellow = Color(0xFFFFCA28);
 }
